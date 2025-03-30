@@ -1,0 +1,84 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #1f4068, #162447);
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#quiz-container {
+    padding: 30px;
+    background-color: #1b1b2f;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.question-block {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #e43f5a;
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px;
+    background: #162447;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+label:hover {
+    background: #1f4068;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#timer {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: #e43f5a;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #e43f5a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #66101f;
+}
+
+#score {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
